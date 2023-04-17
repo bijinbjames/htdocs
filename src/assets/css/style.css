@@ -162,17 +162,14 @@ html {
   }
 }
 
-.background {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  background: #3E1E68;
-  overflow: hidden;
+.background1 {
+
+ background-color: #000;
+ position: fixed;
+
 }
 
-.background span {
+.background1 .span_bg {
   width: 20vmin;
   height: 20vmin;
   border-radius: 20vmin;
@@ -185,8 +182,8 @@ html {
 }
 
 
-.background span:nth-child(0) {
-  color: #583C87;
+.background1 .span_bg:nth-child(0) {
+  color: #d2a501;
   top: 30%;
   left: 12%;
   animation-duration: 14s;
@@ -194,8 +191,8 @@ html {
   transform-origin: 3vw 16vh;
   box-shadow: 40vmin 0 5.1085954156721485vmin currentColor;
 }
-.background span:nth-child(1) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(1) {
+  color: #d2a501;
   top: 68%;
   left: 56%;
   animation-duration: 9s;
@@ -203,8 +200,8 @@ html {
   transform-origin: 9vw 6vh;
   box-shadow: -40vmin 0 5.123126506831549vmin currentColor;
 }
-.background span:nth-child(2) {
-  color: #583C87;
+.background1 .span_bg:nth-child(2) {
+  color: #d2a501;
   top: 28%;
   left: 77%;
   animation-duration: 18s;
@@ -212,8 +209,8 @@ html {
   transform-origin: -21vw 16vh;
   box-shadow: -40vmin 0 5.724697040500468vmin currentColor;
 }
-.background span:nth-child(3) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(3) {
+  color: #d2a501;
   top: 91%;
   left: 12%;
   animation-duration: 44s;
@@ -221,8 +218,8 @@ html {
   transform-origin: 23vw -22vh;
   box-shadow: 40vmin 0 5.052565567579326vmin currentColor;
 }
-.background span:nth-child(4) {
-  color: #E45A84;
+.background1 .span_bg:nth-child(4) {
+  color: #d2a501;
   top: 14%;
   left: 10%;
   animation-duration: 43s;
@@ -230,8 +227,8 @@ html {
   transform-origin: 10vw 1vh;
   box-shadow: 40vmin 0 5.352866109155675vmin currentColor;
 }
-.background span:nth-child(5) {
-  color: #E45A84;
+.background1 .span_bg:nth-child(5) {
+  color: #d2a501;
   top: 84%;
   left: 47%;
   animation-duration: 25s;
@@ -239,8 +236,8 @@ html {
   transform-origin: 13vw -22vh;
   box-shadow: -40vmin 0 5.422527983860118vmin currentColor;
 }
-.background span:nth-child(6) {
-  color: #583C87;
+.background1 .span_bg:nth-child(6) {
+  color: #d2a501;
   top: 56%;
   left: 61%;
   animation-duration: 18s;
@@ -248,8 +245,8 @@ html {
   transform-origin: -1vw -8vh;
   box-shadow: 40vmin 0 5.783985604649163vmin currentColor;
 }
-.background span:nth-child(7) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(7) {
+  color: #d2a501;
   top: 26%;
   left: 50%;
   animation-duration: 16s;
@@ -257,8 +254,8 @@ html {
   transform-origin: 9vw -22vh;
   box-shadow: -40vmin 0 5.871813830802479vmin currentColor;
 }
-.background span:nth-child(8) {
-  color: #583C87;
+.background1 .span_bg:nth-child(8) {
+  color: #d2a501;
   top: 7%;
   left: 32%;
   animation-duration: 44s;
@@ -266,8 +263,8 @@ html {
   transform-origin: 22vw 20vh;
   box-shadow: -40vmin 0 5.5706028434106525vmin currentColor;
 }
-.background span:nth-child(9) {
-  color: #583C87;
+.background1 .span_bg:nth-child(9) {
+  color: #d2a501;
   top: 79%;
   left: 56%;
   animation-duration: 11s;
@@ -275,8 +272,8 @@ html {
   transform-origin: -13vw 23vh;
   box-shadow: 40vmin 0 5.980311059021122vmin currentColor;
 }
-.background span:nth-child(10) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(10) {
+  color: #d2a501;
   top: 21%;
   left: 35%;
   animation-duration: 28s;
@@ -284,8 +281,8 @@ html {
   transform-origin: 14vw -14vh;
   box-shadow: 40vmin 0 5.667417451259525vmin currentColor;
 }
-.background span:nth-child(11) {
-  color: #E45A84;
+.background1 .span_bg:nth-child(11) {
+  color: #d2a501;
   top: 71%;
   left: 90%;
   animation-duration: 20s;
@@ -293,8 +290,8 @@ html {
   transform-origin: 16vw 1vh;
   box-shadow: 40vmin 0 5.909678654437308vmin currentColor;
 }
-.background span:nth-child(12) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(12) {
+  color: #d2a501;
   top: 27%;
   left: 23%;
   animation-duration: 53s;
@@ -302,8 +299,8 @@ html {
   transform-origin: 11vw -20vh;
   box-shadow: -40vmin 0 5.103975025997442vmin currentColor;
 }
-.background span:nth-child(13) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(13) {
+  color: #d2a501;
   top: 69%;
   left: 77%;
   animation-duration: 26s;
@@ -311,8 +308,8 @@ html {
   transform-origin: -9vw 1vh;
   box-shadow: -40vmin 0 5.062449081173496vmin currentColor;
 }
-.background span:nth-child(14) {
-  color: #E45A84;
+.background1 .span_bg:nth-child(14) {
+  color: #d2a501;
   top: 28%;
   left: 85%;
   animation-duration: 13s;
@@ -320,8 +317,8 @@ html {
   transform-origin: -1vw -16vh;
   box-shadow: 40vmin 0 5.734609953800575vmin currentColor;
 }
-.background span:nth-child(15) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(15) {
+  color: #d2a501;
   top: 63%;
   left: 8%;
   animation-duration: 44s;
@@ -329,8 +326,8 @@ html {
   transform-origin: 14vw 14vh;
   box-shadow: 40vmin 0 5.525118053209811vmin currentColor;
 }
-.background span:nth-child(16) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(16) {
+  color: #d2a501;
   top: 11%;
   left: 94%;
   animation-duration: 11s;
@@ -338,8 +335,8 @@ html {
   transform-origin: 6vw -20vh;
   box-shadow: -40vmin 0 5.284377070501275vmin currentColor;
 }
-.background span:nth-child(17) {
-  color: #FFACAC;
+.background1 .span_bg:nth-child(17) {
+  color: #d2a501;
   top: 64%;
   left: 85%;
   animation-duration: 36s;
@@ -347,8 +344,8 @@ html {
   transform-origin: 11vw -15vh;
   box-shadow: 40vmin 0 5.532064683204611vmin currentColor;
 }
-.background span:nth-child(18) {
-  color: #583C87;
+.background1 .span_bg:nth-child(18) {
+  color: #d2a501;
   top: 70%;
   left: 28%;
   animation-duration: 42s;
@@ -704,7 +701,7 @@ html {
   background-position: center;
   text-align: center;
   min-height: 100vh;
-  animation:fadeInUp 1s ease backwards;
+  animation:fadeInUp 3s ease backwards;
   display: grid;
   align-items: center;
 }
@@ -831,7 +828,7 @@ html {
   overflow-x: hidden;
 }
 
-.live-match .section-title { margin-block-end: 90px; }
+.live-match .section-title { margin-block-end: 50px; }
 
 .live-match-banner {
   position: relative;
@@ -1497,7 +1494,7 @@ html {
 
   .live-match-banner .play-btn { font-size: 120px; }
 
-  .live-match-player::after { font-size: 30rem; }
+  .live-match-player::after { font-size: 10rem; }
 
 
 
@@ -1951,7 +1948,7 @@ h1::before {
   mix-blend-mode: screen;
   -webkit-animation: shine 2s infinite;
           animation: shine 2s infinite;
-  background-size: 200%;
+  background-size: 100%;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -2328,11 +2325,7 @@ transform: scale(1);
 
 /*ANIMATION ON PAGES */ 
 
-.hero {
-  animation-duration: 2s;
-  animation-name: slidein;
-  animation-iteration-count: 1
-}
+
 
 .cont_1{
   animation-duration: 2s;
@@ -2385,14 +2378,7 @@ transform: scale(1);
 
 
 
-.logo_scrol{
-  
-}
 
-
-@keyframes scrol{
-  
-}
 
 
 
@@ -2411,10 +2397,10 @@ transform: scale(1);
 
 .carousel-item {
 
-  --width: clamp(150px, 30vw, 300px);
-  --height: clamp(200px, 40vw, 400px);
-  --x: calc(var(--active) * 200%);
-  --y: calc(var(--active) * 50%);
+  --width: clamp(150px, 70vw, 300px);
+  --height: clamp(200px, 90vw, 400px);
+  --x: calc(var(--active) * 700%);
+  --y: calc(var(--active) * 10%);
   --rot: calc(var(--active) * 120deg);
   --opacity: calc(var(--zIndex) / var(--items) * 3 - 2);
   overflow: hidden;

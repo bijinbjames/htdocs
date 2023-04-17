@@ -91,15 +91,6 @@ function login_show() {
 };
 
 
-/* hero hide */
-
-function scrol(){
-
-  document.getElementById("home").display.visibility = "hidden";
-}
-
-
-
 
 
 

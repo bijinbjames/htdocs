@@ -1,28 +1,9 @@
+
 <div id="body">
-<div class="background">
-  <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-  </div>
+
 <header class="header">
     <!--
+
     <div class="header-top">
       <div class="container">
         <div class="countdown-text">
@@ -128,3 +109,25 @@
     </div>
 
   </header>
+  <div class="background1">
+  <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+  </div>
