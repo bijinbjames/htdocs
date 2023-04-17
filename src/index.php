@@ -17,7 +17,7 @@ require_once './featch/collect_home_items.php';
         </h1>
       </section>
       <head>
-</body>
+
   <!---- carousel table start--->
       <div class="section-wrapper" >
       <section class="section featured-game" id="features" aria-label="featured game"></section>
@@ -58,65 +58,57 @@ while($row = mysqli_fetch_array($result))
 
 
 
+   
+        
+         
+    <!--------------------------------------------Section  2 start ---------------------------------------------------------------->
 
+    <div class="section-wrapper" >
+      <section class="section featured-game" id="features" aria-label="featured game">
+      <h2 class="h2 section-title">
+             PRO<span class="span">SHOW</span>
+          </h2>
 
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-
-
-
-
-
-
-        <!-- 
-          - #LIVE MATCH
-        -->
-
-        <section class="section live-match" id="live" aria-label="live match">
-          <div class="container slide_in_1">
-
-            <h2 class="h2 section-title">
-              Watch Live <span class="span">Match</span>
-            </h2>
-
-            <figure class="live-match-banner img-holder" style="--width: 800; --height: 470;">
-
-              <img src="./assets/images/live-match-banner.jpg" width="800" height="470" loading="lazy"
-                alt="Live Match Video" class="img-cover">
-
-              <button class="play-btn" aria-label="play video">
-                <ion-icon name="play"></ion-icon>
-              </button>
-
-            </figure>
-
-            <div class="live-match-player">
-
-              <figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
-                <img src="./assets/images/live-match-player-1.png" width="406" height="277" loading="lazy"
-                  alt="tokyo eagle" class="w-100">
-              </figure>
-
-              <div class="live-match-detail">
-
-                <p class="live-match-subtitle">Upcoming Live Matches</p>
-
-                <time class="live-match-time" datetime="08:30">08:30</time>
-
-              </div>
-
-              <figure class="player player-2 img-holder" style="--width: 400; --height: 305;">
-                <img src="./assets/images/live-match-player-2.png" width="400" height="305" loading="lazy"
-                  alt="new york hunter7" class="w-100">
-              </figure>
-
+<div class="banner">
+        <div id="dg-container" class="dg-container">
+            <div class="dg-wrapper">
+                <a href="#">
+                    <img src="//placehold.it/300x300" class="img-fluid" >
+                </a>
+                <a href="#">
+                    <img src="//placehold.it/300x300" class="img-fluid" >
+                </a>
+                <a href="#">
+                    <img src="//placehold.it/300x300" class="img-fluid" >
+                </a>
+                <a href="#">
+                    <img src="//placehold.it/300x300" class="img-fluid" >
+                </a>
+                <a href="#" >
+                    <img src="//placehold.it/300x300" class="img-fluid" >
+                </a>
             </div>
+            <ol class="button" id="lightButton">
+                <li index="0">
+                <li index="1">
+                <li index="2">
+                <li index="3">
+                <li index="4">
+            </ol>
+            <nav>
+                <span class="dg-prev"></span>
+                <span class="dg-next"></span>
+            </nav>
+</div>
+    </div>
+</section>
 
-          </div>
-        </section>
-    
-      </div>
+</div>
 
-
+    <!--------------------------------------------Section  2 end---------------------------------------------------------------->
 
 
 

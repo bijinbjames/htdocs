@@ -94,7 +94,6 @@
     </div>
 
 
-  </header>
   <div class="background1">
   <span class="span_bg"></span>
    <span class="span_bg"></span>
