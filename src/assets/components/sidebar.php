@@ -64,40 +64,25 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Live</a>
+              <a href="#live" class="navbar-link skewBg" data-nav-link>WorkShops</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#features" class="navbar-link skewBg" data-nav-link>Features</a>
+              <a href="#features" class="navbar-link skewBg" data-nav-link>Proshows</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#shop" class="navbar-link skewBg" data-nav-link>Shop</a>
+              <a href="#shop" class="navbar-link skewBg" data-nav-link>Events</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#blog" class="navbar-link skewBg" data-nav-link>Blog</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
+              <a href="#blog" class="navbar-link skewBg" data-nav-link>Team</a>
             </li>
 
           </ul>
         </nav>
 
         <div class="header-actions">
-
-          <button class="cart-btn" aria-label="cart">
-            <ion-icon name="cart"></ion-icon>
-
-            <span class="cart-badge">0</span>
-          </button>
-
-          <button class="search-btn" aria-label="open search" data-search-toggler>
-            <ion-icon name="search-outline"></ion-icon>
-          </button>
-
           <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
             <ion-icon name="menu-outline" class="menu"></ion-icon>
             <ion-icon name="close-outline" class="close"></ion-icon>
@@ -108,6 +93,7 @@
       </div>
     </div>
 
+<<<<<<< HEAD
   </header>
   <div class="background1">
   <span class="span_bg"></span>
@@ -131,3 +117,6 @@
    <span class="span_bg"></span>
    <span class="span_bg"></span>
   </div>
+=======
+  </header>
+>>>>>>> 3245d57d8f1102526c27bdc2e391c5d5b1627282

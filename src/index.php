@@ -8,15 +8,20 @@ require_once './featch/collect_home_items.php';
 <?php include("assets/components/loader.php")?>
  <?php include("assets/components/sidebar.php") ?>
 <?php include("assets/components/searchbar.php")?>
-<body onload="function_loader()" >
+<body onload="function_loader()" > 
   <main>
+  <div class="" id="subtitle">
+        <h3 class="caption">Ektha subtitle blah blah blah</h3>
+        </div>
     <article class="cont_1"> 
       <section class="section hero" id="home" onscroll="hideme()">
         <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
+        
       </section>
-
+     
+<script></script>
       <head>
 
 </body>
