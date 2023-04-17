@@ -10,8 +10,8 @@
 
 .carousel-item {
 
-  --width: clamp(150px, 30vw, 300px);
-  --height: clamp(200px, 40vw, 400px);
+  --width: clamp(250px, 40vw, 400px);
+  --height: clamp(300px, 70vw, 500px);
   --x: calc(var(--active) * 500%);
   --y: calc(var(--active) * 200%);
   --rot: calc(var(--active) * 120deg);
