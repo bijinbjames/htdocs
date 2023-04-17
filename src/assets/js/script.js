@@ -109,8 +109,8 @@ function scrol(){
 /*--------------------
 Vars
 --------------------*/
-let progress = 10
-let startX = 1
+let progress = 100
+let startX = 0
 let active = 0
 let isDown = false
 
