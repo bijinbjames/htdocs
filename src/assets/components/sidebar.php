@@ -76,7 +76,7 @@
     <div class="header-bottom skewBg" data-header>
       <div class="container">
 
-        <a href="#" class="logo">EKTHA'23</a>
+        <a href="./index.php" class="logo">EKTHA'23</a>
 
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
