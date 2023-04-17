@@ -192,12 +192,14 @@ html {
   }
 }
 
+body{
+  background-color: #1f2548;
+}
 .background1 {
   position: fixed;
-
   top: 0;
   left: 0;
-  background: #8b75a8;
+
 
 }
 
@@ -214,7 +216,7 @@ html {
 }
 
 
-.background span:nth-child(0) {
+.background1 .span_bg:nth-child(0) {
   color: #583C87;
   top: 30%;
   left: 12%;
@@ -223,7 +225,7 @@ html {
   transform-origin: 3vw 16vh;
   box-shadow: 40vmin 0 5.1085954156721485vmin currentColor;
 }
-.background span:nth-child(1) {
+.background1 .span_bg:nth-child(1) {
   color: #FFACAC;
   top: 68%;
   left: 56%;
@@ -232,7 +234,7 @@ html {
   transform-origin: 9vw 6vh;
   box-shadow: -40vmin 0 5.123126506831549vmin currentColor;
 }
-.background span:nth-child(2) {
+.background1 .span_bg:nth-child(2) {
   color: #583C87;
   top: 28%;
   left: 77%;
@@ -241,7 +243,7 @@ html {
   transform-origin: -21vw 16vh;
   box-shadow: -40vmin 0 5.724697040500468vmin currentColor;
 }
-.background span:nth-child(3) {
+.background1 .span_bg:nth-child(3) {
   color: #FFACAC;
   top: 91%;
   left: 12%;
@@ -250,7 +252,7 @@ html {
   transform-origin: 23vw -22vh;
   box-shadow: 40vmin 0 5.052565567579326vmin currentColor;
 }
-.background span:nth-child(4) {
+.background1 .span_bg:nth-child(4) {
   color: #E45A84;
   top: 14%;
   left: 10%;
@@ -259,7 +261,7 @@ html {
   transform-origin: 10vw 1vh;
   box-shadow: 40vmin 0 5.352866109155675vmin currentColor;
 }
-.background span:nth-child(5) {
+.background1 .span_bg:nth-child(5) {
   color: #E45A84;
   top: 84%;
   left: 47%;
@@ -277,7 +279,7 @@ html {
   transform-origin: -1vw -8vh;
   box-shadow: 40vmin 0 5.783985604649163vmin currentColor;
 }
-.background span:nth-child(7) {
+.background1 .span_bg:nth-child(7) {
   color: #FFACAC;
   top: 26%;
   left: 50%;
@@ -304,7 +306,7 @@ html {
   transform-origin: -13vw 23vh;
   box-shadow: 40vmin 0 5.980311059021122vmin currentColor;
 }
-.background span:nth-child(10) {
+.background1 .span_bg:nth-child(10) {
   color: #FFACAC;
   top: 21%;
   left: 35%;
@@ -313,7 +315,7 @@ html {
   transform-origin: 14vw -14vh;
   box-shadow: 40vmin 0 5.667417451259525vmin currentColor;
 }
-.background span:nth-child(11) {
+.background1 .span_bg:nth-child(11) {
   color: #E45A84;
   top: 71%;
   left: 90%;
@@ -322,7 +324,7 @@ html {
   transform-origin: 16vw 1vh;
   box-shadow: 40vmin 0 5.909678654437308vmin currentColor;
 }
-.background span:nth-child(12) {
+.background1 .span_bg:nth-child(12) {
   color: #FFACAC;
   top: 27%;
   left: 23%;
@@ -331,7 +333,7 @@ html {
   transform-origin: 11vw -20vh;
   box-shadow: -40vmin 0 5.103975025997442vmin currentColor;
 }
-.background span:nth-child(13) {
+.background1 .span_bg:nth-child(13) {
   color: #FFACAC;
   top: 69%;
   left: 77%;
@@ -340,7 +342,7 @@ html {
   transform-origin: -9vw 1vh;
   box-shadow: -40vmin 0 5.062449081173496vmin currentColor;
 }
-.background span:nth-child(14) {
+.background1 .span_bg:nth-child(14) {
   color: #E45A84;
   top: 28%;
   left: 85%;
@@ -349,7 +351,7 @@ html {
   transform-origin: -1vw -16vh;
   box-shadow: 40vmin 0 5.734609953800575vmin currentColor;
 }
-.background span:nth-child(15) {
+.background1 .span_bg:nth-child(15) {
   color: #FFACAC;
   top: 63%;
   left: 8%;
@@ -358,7 +360,7 @@ html {
   transform-origin: 14vw 14vh;
   box-shadow: 40vmin 0 5.525118053209811vmin currentColor;
 }
-.background span:nth-child(16) {
+.background1 .span_bg:nth-child(16) {
   color: #FFACAC;
   top: 11%;
   left: 94%;
@@ -367,7 +369,7 @@ html {
   transform-origin: 6vw -20vh;
   box-shadow: -40vmin 0 5.284377070501275vmin currentColor;
 }
-.background span:nth-child(17) {
+.background1 .span_bg:nth-child(17) {
   color: #FFACAC;
   top: 64%;
   left: 85%;
@@ -2449,7 +2451,7 @@ transform: scale(1);
       -ms-user-select: none;
           user-select: none;
   transform-origin: 0% 100%;
-  box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 50px 10px rgba(204, 203, 203, 0.5);
   background: black;
   pointer-events: all;
   transform: translate(var(--x), var(--y)) rotate(var(--rot));
@@ -2549,7 +2551,7 @@ transform: scale(1);
   border-radius: 4px;
   width: 100%;
   height:280px;
-  background: #fff;
+
 }
 
 .dg-wrapper a.dg-transition {

@@ -1,5 +1,27 @@
 
 <div id="body">
+<div class="background1">
+  <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+   <span class="span_bg"></span>
+  </div>
 
 <header class="header">
     <!--
@@ -94,28 +116,7 @@
     </div>
 
 
-  <div class="background1">
-  <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-   <span class="span_bg"></span>
-  </div>
+
 
   </header>
 

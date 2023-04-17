@@ -24,7 +24,7 @@ require_once './featch/collect_home_items.php';
         <div class="container"></div>
 
           <h2 class="h2 section-title">
-            All Released <span class="span">Games</span>
+            Eve<span class="span">nts</span>
           </h2>
 <?php
 $hsql1 = "SELECT * FROM section_home WHERE section = 'section_1'";
@@ -55,41 +55,37 @@ while($row = mysqli_fetch_array($result))
 <div class="cursor"></div>
 <div class="cursor cursor2"></div>
         <!---- carousel table end --->
-
-
-
-   
-        
-         
     <!--------------------------------------------Section  2 start ---------------------------------------------------------------->
+    <?php
+$hsql1 = "SELECT * FROM section_home WHERE section = 'section_2'";
+$result = mysqli_query($dbcon, $hsql1);
 
-    <div class="section-wrapper" >
+while($row = mysqli_fetch_array($result))
+{
+
+?>
+    <div class="section-wrapper" <?php  echo  "$row[enable]";?>>
       <section class="section featured-game" id="features" aria-label="featured game">
       <h2 class="h2 section-title">
              PRO<span class="span">SHOW</span>
           </h2>
-
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
 <div class="banner">
         <div id="dg-container" class="dg-container">
             <div class="dg-wrapper">
+            <?php
+
+$hsql2 = "SELECT * FROM section_2";
+$result = mysqli_query($dbcon, $hsql2);
+
+while($row = mysqli_fetch_array($result))
+{
+?>
                 <a href="#">
-                    <img src="//placehold.it/300x300" class="img-fluid" >
+                    <img src="<?php  echo  "$row[image]";?>" >
                 </a>
-                <a href="#">
-                    <img src="//placehold.it/300x300" class="img-fluid" >
-                </a>
-                <a href="#">
-                    <img src="//placehold.it/300x300" class="img-fluid" >
-                </a>
-                <a href="#">
-                    <img src="//placehold.it/300x300" class="img-fluid" >
-                </a>
-                <a href="#" >
-                    <img src="//placehold.it/300x300" class="img-fluid" >
-                </a>
+                <?php } }?>
             </div>
             <ol class="button" id="lightButton">
                 <li index="0">
@@ -103,9 +99,8 @@ while($row = mysqli_fetch_array($result))
                 <span class="dg-next"></span>
             </nav>
 </div>
-    </div>
+</div>
 </section>
-
 </div>
 
     <!--------------------------------------------Section  2 end---------------------------------------------------------------->
