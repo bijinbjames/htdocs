@@ -11,7 +11,7 @@ require_once './featch/collect_home_items.php';
 <body onload="function_loader()" >
   <main>
     <article class="cont_1"> 
-      <section class="section hero" id="home" >
+      <section class="section hero" id="home" onscroll="hideme()">
         <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
@@ -21,40 +21,7 @@ require_once './featch/collect_home_items.php';
 
 </body>
 
-      <section class="section brand cont_1" aria-label="brand">
-        <div class="container">
 
-          <ul class="has-scrollbar">
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-          </ul>
-
-        </div>
-        
-      </section>
       <div class="section-wrapper" >
   
 <!--
@@ -116,6 +83,9 @@ while($row = mysqli_fetch_array($result))
 
           </div>
         </section>
+
+
+        
         <div class="carousel_sec1">
 	<div class="carousel-item">
 		<div class="carousel-box">
@@ -763,7 +733,40 @@ while($row = mysqli_fetch_array($result))
         </div>
       </section>
 
+      <section class="section brand cont_1" aria-label="brand">
+        <div class="container">
 
+          <ul class="has-scrollbar">
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+          </ul>
+
+        </div>
+        
+      </section>
 
 
 
