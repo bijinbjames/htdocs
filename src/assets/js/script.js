@@ -109,7 +109,7 @@ function scrol(){
 /*--------------------
 Vars
 --------------------*/
-let progress = 100
+let progress = 0
 let startX = 0
 let active = 0
 let isDown = false
@@ -117,7 +117,7 @@ let isDown = false
 /*--------------------
 Contants
 --------------------*/
-const speedWheel = 0.1
+const speedWheel = 0.01
 const speedDrag = -0.1
 
 /*--------------------
