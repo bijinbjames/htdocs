@@ -13,6 +13,8 @@ require_once '../featch/collect_home_items.php';
     <th>description</th>
     <th>image</th>
     <th>url</th>
+    <th>Edit</th>
+    <th>Delete</th>
   </tr>
   <?php
 
@@ -24,10 +26,14 @@ while($row = mysqli_fetch_array($result))
 
 ?>
   <tr>
+    <form>
     <td><?php  echo  ". $row[title] . ";?></td>
     <td><?php  echo  ". $row[description] . ";?></td>
     <td><?php  echo  ". $row[image] . ";?></td>
     <td><?php  echo  ". $row[url] . ";?></td>
+    <td><button ></button></td> 
+    <td></td>
+</form>
   </tr>
   <?php } ?>
   <?php

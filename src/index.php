@@ -10,11 +10,9 @@ require_once './featch/collect_home_items.php';
 <?php include("assets/components/searchbar.php")?>
 <body onload="function_loader()" >
   <main>
-
     <article class="cont_1"> 
-    
       <section class="section hero" id="home" >
-        <h1 contenteditable data-heading="EKTHA'23">
+        <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
       </section>

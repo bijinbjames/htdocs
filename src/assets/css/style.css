@@ -378,7 +378,8 @@ body {
   font-family: var(--ff-oxanium);
   font-size: 3rem;
   font-weight: var(--fw-800);
-  animation: float 2s ease-in-out infinite;
+  display: none;
+
 }
 
 .header-actions {
@@ -1745,9 +1746,6 @@ body {
 
 
 
-
-
-
 h1 {
   font-family:titlefont;
   background-color: goldenrod;
@@ -1858,18 +1856,6 @@ h1 {
   }
 }
 
-
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
-}
 
 
 
@@ -2161,13 +2147,13 @@ transform: scale(1);
 /*ANIMATION ON PAGES */ 
 
 .hero {
-  animation-duration: 6s;
+  animation-duration: 2s;
   animation-name: slidein;
   animation-iteration-count: 1
 }
 
 .cont_1{
-  animation-duration: 6s;
+  animation-duration: 2s;
   animation-name: slidein;
   animation-iteration-count: 1
 }
@@ -2217,10 +2203,14 @@ transform: scale(1);
 
 
 
+.logo_scrol{
+  
+}
 
 
-
-
+@keyframes scrol{
+  
+}
 
 
 
