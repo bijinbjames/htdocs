@@ -4,20 +4,20 @@ require_once './featch/collect_home_items.php';
 ?>
 <!DOCTYPE html >
 <html lang="en">
-<?php include("assets/components/meta.php")?>
-<?php include("assets/components/loader.php")?>
- <?php include("assets/components/sidebar.php") ?>
-<?php include("assets/components/searchbar.php")?>
+<?php include("./assets/components/meta.php")?>
+<?php include("./assets/components/loader.php")?>
+<main id="body">
+ <?php include("./assets/components/sidebar.php") ?>
+<?php include("./assets/components/searchbar.php")?>
 <body onload="function_loader()" > 
-  <main>
+
     <article class="cont_1"> 
       <section class="section hero" id="home" onscroll="hideme()">
         <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
       </section>
-      <head>
-
+ 
   <!---- carousel table start--->
       <div class="section-wrapper" >
       <section class="section featured-game" id="features" aria-label="featured game"></section>
@@ -542,11 +542,13 @@ while($row = mysqli_fetch_array($result))
       </section>
 
     </article>
+    <?php include("assets/components/footer.php")?>
   </main>
 
-  <?php include("assets/components/footer.php")?>
 
+</div>
   <?php include("assets/components/scripts.php")?>
 </body>
 
 </html>
+

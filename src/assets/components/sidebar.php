@@ -1,5 +1,5 @@
 
-<div id="body">
+
 <div class="background1">
   <span class="span_bg"></span>
    <span class="span_bg"></span>

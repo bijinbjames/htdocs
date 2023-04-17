@@ -1,4 +1,12 @@
-
+<?php
+require_once './functions/config.php';
+if(isset($_SESSION['userData'])){
+	header('location: view.php');
+}
+$loginURL="";
+$authUrl = $googleClient->createAuthUrl();
+$loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
+?>
 <!DOCTYPE html >
 <html lang="en">
 <body onload="login_show()">
@@ -11,27 +19,14 @@
     <div class="body_login">
         <div class="form">
             <h2>Login</h2>
-            <form action="./functions/login_validate.php" method="post">
-            <div class="input">
-                <div class="inputBox">
-                    <label name="username">Username</label>
-                    <input name="username" type="text">
-                </div>
-                <div class="inputBox">
-                    <label for="">Password</label>
-                    <input name="password" type="password">
-                </div>
-                <div class="inputBox">
-                    <input type="submit" id="login" value="login"> 
-                </div>
-            </div>
-            </form>
-            <p class="forgot">Forgot Password? <a href="#">Click Here</a></p>
-            <p class="forgot">Dont Have an Account <a href="#">Click Here</a></p>
-            <div class="social">
-                <button><i class="fa fa-facebook" aria-hidden="true"></i><p>Signin with Facebook</p></button>
-                <button><i class="fa fa-google" aria-hidden="true"></i><p>Signin with Gooogle</p></button>
-            </div>
+            <div class="col">
+    
+        <a href="<?= htmlspecialchars( $loginURL ); ?>" class="google btn4"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+         
+    
         </div>
 </div></div>
 
