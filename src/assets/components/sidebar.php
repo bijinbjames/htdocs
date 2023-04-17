@@ -93,7 +93,7 @@
       </div>
     </div>
 
-<<<<<<< HEAD
+
   </header>
   <div class="background1">
   <span class="span_bg"></span>
@@ -117,6 +117,6 @@
    <span class="span_bg"></span>
    <span class="span_bg"></span>
   </div>
-=======
+
   </header>
->>>>>>> 3245d57d8f1102526c27bdc2e391c5d5b1627282
+

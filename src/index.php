@@ -10,29 +10,23 @@ require_once './featch/collect_home_items.php';
 <?php include("assets/components/searchbar.php")?>
 <body onload="function_loader()" > 
   <main>
-  <div class="" id="subtitle">
-        <h3 class="caption">Ektha subtitle blah blah blah</h3>
-        </div>
     <article class="cont_1"> 
       <section class="section hero" id="home" onscroll="hideme()">
         <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
-        
       </section>
-     
-<script></script>
       <head>
-
 </body>
-
-
+  <!---- carousel table start--->
       <div class="section-wrapper" >
-  
-<!--
-         include("assets/components/sliding_card_1.php")?>-->
-         <?php
+      <section class="section featured-game" id="features" aria-label="featured game"></section>
+        <div class="container"></div>
 
+          <h2 class="h2 section-title">
+            All Released <span class="span">Games</span>
+          </h2>
+<?php
 $hsql1 = "SELECT * FROM section_home WHERE section = 'section_1'";
 $result = mysqli_query($dbcon, $hsql1);
 
@@ -40,15 +34,8 @@ while($row = mysqli_fetch_array($result))
 {
 
 ?>
-        <section class="section latest-game " aria-label="latest game" <?php  echo  ". $row[enable] . ";}?>>
-          <div class="container">
-            <p class="section-subtitle">Latest Releases</p>
-            <h2 class="h2 section-title">
-              Create & <span class="span">Manage</span>
-            </h2>
-            <ul class="has-scrollbar">
-       
-<?php
+        <div class="carousel_sec1">
+        <?php
 
 $hsql2 = "SELECT * FROM section_1";
 $result = mysqli_query($dbcon, $hsql2);
@@ -57,126 +44,28 @@ while($row = mysqli_fetch_array($result))
 {
 
 ?>
-           
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
-
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-1.jpg" width="400" height="470" loading="lazy"
-                      alt="White Walker Daily" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="#" class="card-badge skewBg"><?php  echo  ". $row[section] . ";?></a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title"><?php  echo  ". $row[title] . ";?></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Entry Fee : <span class="span">Free</span>
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <?php
-          
-      
-            }?>
-            </ul>
-
-          </div>
-        </section>
-
-
-        
-        <div class="carousel_sec1">
 	<div class="carousel-item">
 		<div class="carousel-box">
-			<div class="title">Paris</div>
-			<div class="num">01</div>
-			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+			<div class="title"><?php  echo  "$row[title]";?></div>
+			<img src="<?php  echo  "$row[image]";?>" />
 		</div>
 	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Warsaw</div>
-			<div class="num">02</div>
-			<img src="https://media.istockphoto.com/id/1150545984/it/foto/palazzo-moderno-di-lusso-con-piscina.jpg?s=612x612&w=0&k=20&c=Pbrai_VGc9tUviMCF1UaBErdS1YGyIVWsD29jzMZwTY=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Madrid</div>
-			<div class="num">03</div>
-			<img
-				src="https://media.istockphoto.com/id/1214351345/it/foto/guardando-direttamente-lo-skyline-del-quartiere-finanziario-nel-centro-di-londra-immagine-di.jpg?s=612x612&w=0&k=20&c=oNNbPzPvcQ-4RA6AeatNIxHQIafBiXmDRtUUY0Ska-I="
-			/>
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Sydney</div>
-			<div class="num">04</div>
-			<img src="https://media.istockphoto.com/id/904390980/it/foto/foto-di-architettura-contemporanea-astratta.jpg?s=612x612&w=0&k=20&c=_P4Wmx5nq5MeDuimpNklKCBlrLovmCyd9lfiMKeJZDs=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Istanbul</div>
-			<div class="num">05</div>
-			<img src="https://media.istockphoto.com/id/130408311/it/foto/piscina-allesterno-della-casa-moderna-al-crepuscolo.jpg?s=612x612&w=0&k=20&c=ZoVjx7uDjoHKmpM1ayW6UR1SQOoYh_xx-QMG_qeOYs0=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Prague</div>
-			<div class="num">06</div>
-			<img src="https://media.istockphoto.com/id/1299954175/it/foto/villa-cubica-moderna.jpg?s=612x612&w=0&k=20&c=DhGhb3c1E3DW_fbrWJ_R_Zh0Lbwu6syFeRLsKlZ9no8=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Munich</div>
-			<div class="num">07</div>
-			<img src="https://media.istockphoto.com/id/926689776/it/foto/vista-ad-angolo-basso-dei-grattacieli-di-new-york.jpg?s=612x612&w=0&k=20&c=DmEB0Ty7ZwDnBoU5SuA8FNevOp4G1UcECw5aS4vA9A8=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Venice</div>
-			<div class="num">08</div>
-			<img src="https://media.istockphoto.com/id/1191376167/it/foto/villa-dellisola.jpg?s=612x612&w=0&k=20&c=PKslWo4FdbjinohKQlK_oWL34jqAsnzMTdy2bxEAf-I=" />
-		</div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Oslo</div>
-			<div class="num">09</div>
-			<img src="https://media.istockphoto.com/id/184316397/it/foto/londra-edifici-aziendali.jpg?s=612x612&w=0&k=20&c=XqrRxEPzFnwRFk7PQrCiu9-FPfCTPyMe5BKKaxYXCs8=" />
-		</div>
-	</div>
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">London</div>
-			<div class="num">10</div>
-			<img src="https://media.istockphoto.com/id/184619832/it/foto/distretto-finanziario-al-crepuscolo-londra.jpg?s=612x612&w=0&k=20&c=RAThrJOBY6vhlT6-kQpu9-9jLEzWToYfdw46S8B0Mu0=" />
-		</div>
-	</div>
+  <?php } }?>
 </div>
-
-
 <div class="cursor"></div>
 <div class="cursor cursor2"></div>
+        <!---- carousel table end --->
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- 
           - #LIVE MATCH
