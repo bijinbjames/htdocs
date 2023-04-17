@@ -116,7 +116,6 @@ while($row = mysqli_fetch_array($result))
 
           </div>
         </section>
-
         <div class="carousel_sec1">
 	<div class="carousel-item">
 		<div class="carousel-box">
@@ -139,6 +138,36 @@ while($row = mysqli_fetch_array($result))
 			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
 		</div>
 	</div>
+	<div class="carousel-item">
+		<div class="carousel-box">
+			<div class="title">Paris</div>
+			<div class="num">01</div>
+			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+		</div>
+	</div>
+	<div class="carousel-item">
+		<div class="carousel-box">
+			<div class="title">Paris</div>
+			<div class="num">01</div>
+			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+		</div>
+	</div>
+	<div class="carousel-item">
+		<div class="carousel-box">
+			<div class="title">Paris</div>
+			<div class="num">01</div>
+			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+		</div>
+	</div>
+	<div class="carousel-item">
+		<div class="carousel-box">
+			<div class="title">Paris</div>
+			<div class="num">01</div>
+			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+		</div>
+	</div>
+	
+
 </div>
 
         <!-- 
