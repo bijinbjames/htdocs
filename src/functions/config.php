@@ -10,7 +10,7 @@ $db = "db_oauth";
 
 $googleappid = "737958971922-80hdafi6ot8c4sp5rtv654akarr0200a.apps.googleusercontent.com"; 
 $googleappsecret = "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"; 
-$redirectURL = "https://ektha.live/"; 
+$redirectURL = ""; 
 
 
 $conn = new mysqli($servername, $username, $password, $db);
@@ -22,7 +22,7 @@ include_once './Google/Google_Client.php';
 include_once './Google/contrib/Google_Oauth2Service.php';
 
 $googleClient = new Google_Client();
-$googleClient->setApplicationName('Login to CodeCastra.com');
+$googleClient->setApplicationName('ektha23');
 $googleClient->setClientId($googleappid);
 $googleClient->setClientSecret($googleappsecret);
 $googleClient->setRedirectUri($redirectURL);

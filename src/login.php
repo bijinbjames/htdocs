@@ -22,7 +22,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
             <div class="col">
     
         <a href="<?= htmlspecialchars( $loginURL ); ?>" class="google btn4"><i class="fa fa-google fa-fw">
-          </i> Login with Google+
+          </i> Login with Google
         </a>
       </div>
          
