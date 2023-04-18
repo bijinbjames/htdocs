@@ -572,6 +572,7 @@ body{
 .header-bottom.active {
   position: fixed;
   top: -85px;
+  border-radius: 10px;
   animation: slideIn 0.5s var(--cubic-out) forwards;
 }
 
@@ -588,7 +589,7 @@ body{
 
 .logo {
   color: var(--white);
-  font-family: var(--ff-oxanium);
+  font-family:titlefont;
   font-size: 3rem;
   font-weight: var(--fw-800);
 
@@ -643,7 +644,10 @@ body{
   transition-duration: 0.5s;
 }
 
-.navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_15); }
+.navbar-item:not(:last-child) { 
+  border-block-end: 1px solid var(--white_15); 
+ 
+}
 
 .navbar-link {
   padding: 10px 25px;
@@ -728,7 +732,7 @@ body{
 .hero-banner { display: none; }
 
 .hero {
-  --section-padding: 60px;
+  --section-padding: 6px;
   margin-block-start: 84px;
   background-repeat: no-repeat;
   background-size: cover;

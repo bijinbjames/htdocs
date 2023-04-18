@@ -12,7 +12,7 @@ require_once './featch/collect_home_items.php';
 <body onload="function_loader()" > 
 
     <article class="cont_1"> 
-      <section class="section hero" id="home" onscroll="hideme()">
+      <section class="section hero" id="home" >
         <h1  data-heading="EKTHA'23">
           EKTHA'23
         </h1>
